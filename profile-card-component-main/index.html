@@ -8,28 +8,45 @@
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .body {font-family: 'Kumbh Sans', sans-serif;}
-  </style>
+ <link rel="stylesheet" href="style.css">
+
 </head>
-<body class="body">
-  <img src="images/image-victor.jpg">
-  <h1>Victor Crest</h1>
-  <h1>26</h1>
-  <h2>London</h2>
+<body >
+  <div class="backtop">
+    <img src="./images/bg-pattern-top.svg" alt="" />
+  </div>
+  <div class="backbottom">
+    <img src="./images/bg-pattern-bottom.svg" alt="" />
+  </div>
+  <div class="container">
+    <img src="images/bg-pattern-card.svg" alt="" />
+    <div class="topContainer">
+      <img src="images/image-victor.jpg" alt="" />
+      <div class="profileText">
+        <p>Victor Crest</p>
+        <p>26</p>
+      </div>
+      <p>London</p>
+    </div>
+    
+    <div class="bottomContainer">
 
-  <h1>80K</h1>
-  <h3>Followers</h3>
+      <div class="part">
+        <p>80K</p>
+        <p>Followers</p>
+      </div>
 
-  <h1>803K</h1>
-  <h3>Likes</h3>
+      <div class="part">
+        <p>803K</p>
+        <p>Likes</p>
+      </div>
 
-  <h1>1.4K</h1>
-  <h3>Photos</h3>
+      <div class="part">
+        <p>1.4K</p>
+        <p>Photos</p>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/oliver-rae-9893aa179/">Olly Rae</a>.
